@@ -6,5 +6,4 @@ docker run -it \
     -v "$PWD/etc/letsencrypt:/etc/letsencrypt" \
     -v "$PWD/var/lib/letsencrypt:/var/lib/letsencrypt" \
     -v "$PWD/.cloudflare.ini:/.cloudflare.ini" \
-    certbot/dns-cloudflare \
-    certonly $@
+    certbot/dns-cloudflare $@
