@@ -1,1 +1,7 @@
 .cloudflare.ini
+
+etc/letsencrypt/*
+!etc/letsencrypt/.gitkeep
+
+var/lib/letsencrypt/*
+!var/lib/letsencrypt/.gitkeep
